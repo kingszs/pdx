@@ -4,7 +4,7 @@
   "author": "pdx",
   "scripts": {
     "dev": "vuepress dev . --open --host \"localhost\"",
-    "build": "vuepress build ."
+    "build": "vuepress build --output public"
   },
   "devDependencies": {
     "glob": "^7.1.6",
